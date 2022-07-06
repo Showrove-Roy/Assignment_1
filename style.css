@@ -28,7 +28,7 @@ h1 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding: 0;
 }
@@ -56,10 +56,9 @@ p {
     left: 44%;
 }
 
-
-/* .donate-container {
-    padding: 5%;
-} */
+.donate-container {
+    margin-top: 5%;
+}
 
 .donate-container p {
     margin: 2% 15%;
@@ -109,4 +108,40 @@ p {
     border: none;
     text-align: center;
     font-size: 16px;
+}
+
+.donate-planSection {
+    margin: 200px 0;
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-plan-items {
+    height: 275px;
+    width: 275px;
+    padding: 40px 15px 0 20px;
+    border-radius: 5px;
+}
+
+.donate-plan-items p {
+    text-align: left;
+}
+
+.donate-plan-subtitle {
+    padding: 0 15% 2% 15%;
+}
+
+.plan-item1 {
+    background-color: #edf5f6;
+}
+
+.plan-item2 {
+    background-color: #ffeeee;
+}
+
+.plan-item3 {
+    background-color: #fff4d6;
 }
