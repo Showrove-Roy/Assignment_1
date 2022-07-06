@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&family=Roboto:wght@500&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -6,10 +6,10 @@ body {
 }
 
 .hero-sectionBG {
-    background: linear-gradient(40deg, #074f5032, #074f50cd), url(images/1.webp) top center no-repeat;
+    background: linear-gradient(to bottom, #074f5032, #074f50cd), url(images/donation13.jpg) top center no-repeat;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 250px;
+    padding-bottom: 200px;
 }
 
 .common-width {
@@ -33,12 +33,23 @@ p {
     padding: 0;
 }
 
+input:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .hero-section h1 {
     color: #ffffff;
 }
 
 .hero-section p {
     color: #ffffff;
+    padding: 0 5%;
 }
 
 .link-btn {
@@ -57,7 +68,7 @@ p {
 }
 
 .donate-container {
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .donate-container p {
@@ -66,7 +77,6 @@ p {
 
 .amount-mainBox {
     padding: 5% 15% 2% 15%;
-    /* flex-wrap: nowrap; */
     justify-content: space-between;
     display: flex;
 }
@@ -185,7 +195,8 @@ p {
 .blog_2_img {
     width: 400px;
     height: 400px;
-    background-image: url(images/donation13.jpg);
+    background-image: url(images/donation10.jpg);
+    background-position: center right;
     background-size: cover;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -222,6 +233,46 @@ p {
     left: 750px;
 }
 
+.contact-section {
+    margin: 100px 0;
+    padding: 0 10%;
+}
+
+.contact-section p {
+    padding: 0 10% 5% 10%;
+}
+
+.email-container {
+    background-color: #fff4d6;
+}
+
+.email-input {
+    padding: 10% 20%;
+}
+
+.email-input input {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #dadada;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-left: 10%;
+    width: 210px;
+}
+
+.subscribe-btn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ff5959;
+    color: white;
+    padding: 13px 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -6px;
+}
+
 footer {
     height: 100px;
     background-color: #070f16;
@@ -232,6 +283,7 @@ footer {
 footer h1 {
     color: #ff5959;
     font-size: 30PX;
+    font-family: 'Dancing Script', cursive;
 }
 
 footer p {
