@@ -2,6 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    color: #333333;
 }
 
 .hero-sectionBG {
@@ -20,7 +21,6 @@ body {
 }
 
 h1 {
-    color: #ffffff;
     font-size: 50px;
     text-align: center;
     padding: 0;
@@ -28,15 +28,22 @@ h1 {
 }
 
 p {
-    color: #ffffff;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     padding: 0;
 }
 
+.hero-section h1 {
+    color: #ffffff;
+}
+
+.hero-section p {
+    color: #ffffff;
+}
+
 .link-btn {
     color: #ffffff;
-    background-image: linear-gradient(40deg, tomato, orange);
+    background-color: #ff5959;
     text-decoration: none;
     font-size: 20px;
     padding: 12px 30px;
@@ -47,4 +54,59 @@ p {
     -o-border-radius: 10px;
     position: absolute;
     left: 44%;
+}
+
+
+/* .donate-container {
+    padding: 5%;
+} */
+
+.donate-container p {
+    margin: 2% 15%;
+}
+
+.amount-mainBox {
+    padding: 5% 15% 2% 15%;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    display: flex;
+}
+
+.amount-mainBox h2 {
+    text-align: center;
+    padding: 15% 10%;
+}
+
+.amount-items {
+    background-color: #e0e0e089;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-right: 5%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#select-item {
+    border: 2px solid #ff5959;
+    color: #ff5959;
+    background-color: #ff595921;
+}
+
+.amount-input {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #d8d8d8;
+    margin: 0 15% 3% 15%;
+    padding: 1%;
+}
+
+.amount-input input {
+    border: none;
+    text-align: center;
+    font-size: 16px;
 }
